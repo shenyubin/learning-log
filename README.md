@@ -6,9 +6,9 @@ MyLearninglog
 <br/>
 2:
         在ie6下才识别png处理
-	<!--[if IE 6]>
+	[if IE 6]
 	<script src="js/DD_belatedPNG_0.0.8a.js"></script>
 	<script>
 		DD_belatedPNG.fix('*');
 	</script>
-	<![endif]-->
+	[endif]
