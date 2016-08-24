@@ -25,5 +25,6 @@ MyLearninglog
 >-webkit-transform-origin-x: 0;
 >-webkit-transform: scale(0.5833333333333334);
 >}
->scale值的计算方法为： 7 / 12 = 0.5833333333333334
+>scale值的计算方法为： 7 / 12 = 0.5833333333333334  
+
 2. 在父盒子有高度的时候不用清浮动！
