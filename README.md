@@ -1,8 +1,14 @@
 # learning-log
 MyLearninglog
 
-###Augest 23,2016
-1. input type=“type”的提示语可以用css中的vule实现不过用户输入的时候需要把提示语删除；我们如果用html5中的placehoder属性实现<input placehoder=""> 用html5中的placehoder属性就能实现获取焦点时候自动去掉提示。  
+###Augest 25,2016  
+1. span标签宽度无效，原来是所有默认display为inline的元素都会宽度无效话。  
+解决办法？  
+据说不太完美解决办法 修改span为block类型并设置float
+设置display:inline—block   
+2. word-spacing不起作用！  
+解决办法？  
+>word-spacing这个属性对中文没用，不过在中文之间加个空格就生效了。可能老外觉得两词之间没空格就是一个词：helloworld，你好。试验了下letter-spacing，生效，说明浏览器把没空格的中文当成字母了。       >word-spacing用于修改字间距离。这里的“字”，简单的说，可以是任何非空白字符组成的串，并由某种空白符包围。所以象形文字是无法指定字间隔的。除非字之间有空格
 
 ###Augest 24,2016
 1. chrome默认字体最小为12，再小还是显示12  
@@ -27,4 +33,8 @@ MyLearninglog
 >}
 >scale值的计算方法为： 7 / 12 = 0.5833333333333334  
 
-2. 在父盒子有高度的时候不用清浮动！
+2. 在父盒子有高度的时候不用清浮动！  
+
+###Augest 23,2016
+1. input type=“type”的提示语可以用css中的vule实现不过用户输入的时候需要把提示语删除；  
+2. 我们如果用html5中的placehoder属性实现<input placehoder=""> 用html5中的placehoder属性就能实现获取焦点时候自动去掉提示。  
