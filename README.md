@@ -1,6 +1,9 @@
 # learning-log
 MyLearninglog
 
+###Augeset 27,2016  
+今天终于再次用git上传了一次练习项目，还要继续加油。faighting!!!
+
 ###Augeset 26,2016
 **学习方法这个必须几下！！！**   
 1. 不要再想将来要学什么，沉浸现在！    
