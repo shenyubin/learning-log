@@ -1,6 +1,22 @@
 # learning-log
 MyLearninglog
 
+###September 1,2016  
+####前两天组织了家人一次去金山沙滩的一次自驾游，耽误了几天  
+ie6下当浮动元素与非浮动元素相邻时，这个3像素的Bug就会出现，它会偏移3像素解决办法    
+1.给浮动的父盒子添加vertical-align:middle    
+2.只要触发IE的hasLayout，非浮动元素就会拥有布局。所以，利用   
+IE6特有的hack规则，为它单独写样式就可修复此问题：
+_zoom:1;
+margin-left: value;
+_margin-left: value-3px;
+zoom 是IE触发Layout条件之一，因为它是IE特有的CSS规则，所以
+采用zoom。
+margin-left: value-3px 是修复IE6 中3px 的bug。
+此前采用非浮动元素也浮动的方法修复bug，现在我们可以试试这个
+新的方法了！
+注：前面的下划线是专门写给IE7以下版本的hack  
+
 ###Augeset 27,2016  
 今天终于再次用git上传了一次练习项目，还要继续加油。faighting!!!
 
