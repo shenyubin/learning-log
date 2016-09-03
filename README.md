@@ -1,6 +1,11 @@
 # learning-log
 MyLearninglog
 
+### September 3,2016  
+#### 今天在练习的时候发现li上用了overflow：hidden居然达到了去浮动的效果。  
+那么overflow属性为什么能达到去浮动的效果？  
+是因为overflow除了(visible)会重新给他里面的元素建立块级格式化(block formatting context)floats, position absolute, inline-block, table-cell和table-caption都不是块级样式，所以才会用到clear来控制浮动overflow也可以清除浮动是因为当在父级元素设置overflow时候，除了visible，就是只有auto, hidden或者scroll时候，也会建立新的块级格式给他的子元素, 从而起到清楚浮动效果
+
 ###September 1,2016  
 ####前两天组织了家人一次去金山沙滩的一次自驾游，耽误了几天  
 ie6下当浮动元素与非浮动元素相邻时，这个3像素的Bug就会出现，它会偏移3像素解决办法    
