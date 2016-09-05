@@ -1,6 +1,10 @@
 # learning-log
 MyLearninglog
 
+###September 5,2016  
+####go on update   
+今天又遇到了低等错误.active li a{ color：red；}来重写li a{ color：yellow；}但是就是不行，改来改去突然发现我的.active是加在li上的，被自己蠢哭！
+
 ###September 4,2016  
 ####命名的时候一直都挺注意用关键词的，今天练习的时候有个360°shop的练习我在其中用的了一个class="360shop"图省事没有加上°结果被他就狠狠的坑了一把。360shop这个玩意居然是不让用，结果下面所以的样式都不起作用我调试了半天肠子都绿了，等到换了一个class才知道原来360也不是什么好人啊！！！
 
