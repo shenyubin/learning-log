@@ -1,5 +1,5 @@
 # learning-log
-MyLearninglog
+My Learning Log
 
 -------------------------------------
 ###September 13,2016  
