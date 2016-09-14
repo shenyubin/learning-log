@@ -1,12 +1,16 @@
 # learning-log
 MyLearninglog
 
-###September 7,2016  
-今天遇到一个有趣的bug：  
-在ie678下background:url()no-repter;中间的no-repter前面要是没有空格的话这个背景图就不会被识别了。规范还是挺重要的。
+###September 13,2016  
+1. jquery提供的hover方法.hover(function,function);
+2. 清除timer用clearIterval(timer); 
 
 ###September 10,2016  
 今天巩固了下jquery的使用，了解了focus()获取光标的事件和blur()失去光标的事件；利用console.log()来在控制面板里输出console的信息。
+
+###September 7,2016  
+今天遇到一个有趣的bug：  
+在ie678下background:url()no-repter;中间的no-repter前面要是没有空格的话这个背景图就不会被识别了。规范还是挺重要的。
 
 ###September 5,2016  
 ####go on update   
