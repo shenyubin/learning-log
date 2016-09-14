@@ -1,6 +1,6 @@
 # learning-log
 MyLearninglog
-=
+
 
 ###September 13,2016  
 1. jquery提供的hover方法.hover(function,function);
