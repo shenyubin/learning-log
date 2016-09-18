@@ -2,6 +2,25 @@
 My Learning Log
 
 -------------------------------------  
+
+###September 17,2016  
+1. 学到了调用函数传递事件：  
+	>fn1('click');
+	fn1('moseover');
+	function fn1(oEvent){
+   	div1.on(oEvent,function(){
+    	...........
+	})
+	}
+2. jquery的淡入淡出方法用在了焦点图切换：  
+	>dow.fadeOut().css('zIndex',1)  
+
+###September 16,2016  
+接下去的空余时间看看：
+1. 了解天猫形式首页上如何写入html，css。  
+2. 个人简历写出网页形式，github.io也可以做出简历。  
+3. 了解seo优化；了解安全性问题；了解http原理；了解基础的ecmascript，DOW，BOW；ajax；了解如何封装类；了解打包和压缩文件  
+
 ###September 15,2016  
 1. jquery中dow.hide().eq(0).show();是元素都隐藏除了第0个显示。
 2. attr()适合用于修改某个属性所有的值，removeClass()适合修改有多个class的元素。
