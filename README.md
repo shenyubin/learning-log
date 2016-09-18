@@ -4,7 +4,7 @@ My Learning Log
 -------------------------------------  
 
 ###September 17,2016  
-*1. 学到了调用函数传递事件：  
+* 1. 学到了调用函数传递事件：  
         >fn1('click');
 	fn1('moseover');
 	function fn1(oEvent){
@@ -12,7 +12,7 @@ My Learning Log
     	...........
 	})
 	}
-*2. jquery的淡入淡出方法用在了焦点图切换：  
+* 2. jquery的淡入淡出方法用在了焦点图切换：  
 		>dow.fadeOut().css('zIndex',1)  
 
 ###September 16,2016  
