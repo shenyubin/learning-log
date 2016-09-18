@@ -10,9 +10,9 @@ My Learning Log
         fn1('moseover');  
         function fn1(oEvent){  
         div1.on(oEvent,function(){  
-        ...........
-	})
-	}
+        ...........  
+        })  
+        }
 2. jquery的淡入淡出方法用在了焦点图切换：  
 	
 	>dow.fadeOut().css('zIndex',1)  
@@ -26,12 +26,12 @@ My Learning Log
 ###September 15,2016  
 1. jquery中dow.hide().eq(0).show();是元素都隐藏除了第0个显示。
 2. attr()适合用于修改某个属性所有的值，removeClass()适合修改有多个class的元素。
-3. 调用函数的时候传参数的时候同样可以传递对象栗子：  
-    >fnTab($('.tabNav1'), $('.tabCon1'));  
-4.一个函数里同样可以新定义变量。栗子：
-    >function fnTab( oNav, aCon){
-	   var oLi=oNav.children();
-         };
+3. 调用函数的时候传参数的时候同样可以传递对象栗子：    
+	>fnTab($('.tabNav1'), $('.tabCon1'));  
+4.一个函数里同样可以新定义变量。栗子：  
+	>function fnTab( oNav, aCon){  
+		var oLi=oNav.children();  
+	};
 5. addClass的时候如果已经存在这个class将不会发生变化.浏览器并没有出现我担心的报错.  
 
 ###September 13,2016  
