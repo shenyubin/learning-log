@@ -29,6 +29,7 @@ My Learning Log
 3. 调用函数的时候传参数的时候同样可以传递对象栗子：  
 
 	>fnTab($('.tabNav1'), $('.tabCon1'));  
+	
 4.一个函数里同样可以新定义变量。栗子：  
 	
 	>function fnTab( oNav, aCon){  
