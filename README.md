@@ -8,7 +8,8 @@ My Learning Log
 2. json用的时候中间间隔符是，糖炒栗子：  
 	css({'top':oTop,'left':oLeft});
 3. jq中oSpan.length等同于oSpan.size();
-4. attr的用法，可以用来获取元素和修改元素上面的属性。
+4. attr的用法，可以用来获取元素和修改元素上面的属性。  
+5. 在函数中遍历每个dow的时候想要给某个dow不添加样式或者事件的时候可以用return来中断函数或者循环。
 
 ###September 18,2016  
 超出text框时超出部分变成...方法：
