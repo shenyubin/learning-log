@@ -19,7 +19,7 @@ white-space: nowrap;     /*确定超出宽度字符不换行*/
 ###September 17,2016  
 1. 学到了调用函数传递事件：  
 
-        >fn1('click');  
+        > fn1('click');  
         fn1('moseover');  
         function fn1(oEvent){  
         div1.on(oEvent,function(){  
