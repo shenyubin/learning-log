@@ -2,6 +2,19 @@
 My Learning Log
 
 -------------------------------------  
+###September 20,2016  
+1. jq中parent().position().top在子元素中想要获得父元素与上一个父元素之间的距离.板栗：  
+	oTop=$(this).parent().position().top；
+2. json用的时候中间间隔符是，糖炒栗子：  
+	css({'top':oTop,'left':oLeft});
+3. jq中oSpan.length等同于oSpan.size();
+4. attr的用法，可以用来获取元素和修改元素上面的属性。
+
+###September 18,2016  
+超出text框时超出部分变成...方法：
+overflow: hidden;      /*截取超出字符*/
+text-overflow: ellipsis;     /*超出字符以…代替*/
+white-space: nowrap;     /*确定超出宽度字符不换行*/
 
 ###September 17,2016  
 1. 学到了调用函数传递事件：  
